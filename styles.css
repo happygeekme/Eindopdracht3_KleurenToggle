@@ -1,0 +1,64 @@
+body {
+  background-color: lightgrey;
+}
+
+body div {
+  padding: 50px;
+  display: flex;
+  color: white;
+  font-size: 60px;
+  justify-content: center;
+}
+
+#btn-kleurenmenu {
+  width: 70px;
+}
+
+.kleurenmenu {
+  list-style: none;
+  position: absolute;
+  top: 70px;
+  overflow: hidden;
+}
+
+.kleurenmenu li {
+  height: 40px;
+  border: 2px solid lightgrey;
+  padding-top: 15px;
+  padding-left: 10px;
+  position: relative;
+  left: -250px;
+  width: 200px;
+  overflow: hidden;
+  white-space: nowrap;
+  opacity: 0;
+  transition: 0.5s ease-in;
+}
+
+#home {
+  background-color: lightgrey;
+}
+
+#rood {
+  background-color: red;
+}
+
+#oranje {
+  background-color: orange;
+}
+
+#roze {
+  background-color: pink;
+}
+
+#paars {
+  background-color: purple;
+}
+
+#blauw {
+  background-color: royalblue;
+}
+
+#groen {
+  background-color: green;
+}
